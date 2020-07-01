@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  gap: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  display: block;
+  list-style: none;
+  color: #212121;
+  position: relative;
+}
+
+a p {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+}
